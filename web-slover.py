@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import numpy as np
 import pyautogui as pg
 import numpy as np
-import time 
+# import time 
 
 service = Service(executable_path='./msedgedriver.exe')
 driver = webdriver.Edge(service=service)
